@@ -223,21 +223,19 @@ class drugs_confs(geom_confs):
                       'Pt': 31, 'Au': 32, 'Hg': 33, 'Bi': 34}
 
 
-def construct_loader(args, modes=('train', 'val')):
+def construct_loader(root, split_path, batch_size, modes=('train', 'val')):
 
     if isinstance(modes, str):
         modes = [modes]
 
     loaders = []
     for mode in modes:
-        if args.dataset == 'qm9':
-            dataset = qm9_confs(args.data_dir, args.split_path, mode, max_confs=args.n_true_confs)
-        elif args.dataset == 'drugs':
-            dataset = drugs_confs(args.data_dir, args.split_path, mode, max_confs=args.n_true_confs)
+
+        dataset = qm9_confs(root, split_path, mode, max_confs=1)
         loader = DataLoader(dataset=dataset,
-                            batch_size=args.batch_size,
+                            batch_size=batch_size,
                             shuffle=False if mode == 'test' else True,
-                            num_workers=args.num_workers,
+                            num_workers=1,
                             pin_memory=False)
         loaders.append(loader)
 
@@ -245,6 +243,7 @@ def construct_loader(args, modes=('train', 'val')):
         return loaders[0]
     else:
         return loaders
+
 
 
 bonds = {BT.SINGLE: 0, BT.DOUBLE: 1, BT.TRIPLE: 2, BT.AROMATIC: 3}
