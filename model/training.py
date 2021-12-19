@@ -8,6 +8,8 @@ import torch
 from torch.optim import Optimizer
 from torch.optim.lr_scheduler import _LRScheduler
 import torch.nn as nn
+from model.inference import construct_conformers
+
 
 
 def train(model, loader, optimizer, device, scheduler, logger, epoch, writer):
@@ -19,7 +21,32 @@ def train(model, loader, optimizer, device, scheduler, logger, epoch, writer):
         data = data.to(device)
         optimizer.zero_grad()
 
-        result = model(data) if epoch > 1 else model(data, ignore_neighbors=True)
+        org_loss = model(data) if epoch > 1 else model(data, ignore_neighbors=True)
+        
+        if epoch > 0:
+            # predicted 3D Conformation coordinates for atoms in batch (16 molecules)
+            conf = construct_conformers(data, model)
+            # single actual 3D conformation (batch of 16 molecules)
+            pos_list = data.pos
+            pos = torch.cat([torch.cat([p[0][0] for p in pos_list]).unsqueeze(1)], dim=1)
+
+            # make sure same dimensions
+            # print(f"CAT POS: {pos.shape}")    
+            # print("CONF SHAPE: " + str(conf.shape))
+            
+            # calculate MSE 
+            MSE_loss_func = nn.MSELoss()
+            # rec_loss = torch.sqrt(MSE_loss_func(conf, pos))
+            rec_loss = MSE_loss_func(conf, pos)
+            print(f"MSE LOSS: {rec_loss}")
+            
+            # combine losses to get final loss
+            # print("MSE LOSS: " + str(rec_loss))
+            # print("ORG LOSS: " + str(org_loss))
+            result = org_loss + rec_loss
+        else:
+            result = org_loss
+        
         result.backward()
 
         # clip the gradients
