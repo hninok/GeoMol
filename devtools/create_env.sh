@@ -20,8 +20,8 @@ echo "Running ${machine}..."
 
 # request user to select one of the supported CUDA versions
 # source: https://pytorch.org/get-started/locally/
-PS3='Please enter 1, 2, 3, or 4 to specify the desired CUDA version from the options above: '
-options=("9.2" "10.1" "10.2" "cpu" "Quit")
+PS3='Please enter 1, 2, 3, 4, or 5 to specify the desired CUDA version from the options above: '
+options=("9.2" "10.1" "10.2" "11.1" "cpu" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -38,6 +38,11 @@ do
         "10.2")
 			CUDA="cudatoolkit=10.2"
             CUDA_VERSION="cu102"
+            break
+            ;;
+        "11.1")
+			CUDA="cudatoolkit=11.1"
+            CUDA_VERSION="cu111"
             break
             ;;
         "cpu")
@@ -67,7 +72,11 @@ source activate GeoMol
 
 echo "Installing PyTorch with requested CUDA version..."
 echo "Running: conda install pytorch torchvision $CUDA -c pytorch"
-conda install pytorch torchvision $CUDA -c pytorch
+if [ $CUDA_VERSION == "cu111" ]; then
+  conda install pytorch torchvision torchaudio $CUDA -c pytorch -c nvidia -c conda-forge
+else
+  conda install pytorch torchvision $CUDA -c pytorch
+fi
 
 echo "Installing torch-geometric..."
 echo "Using CUDA version: $CUDA_VERSION"
@@ -75,8 +84,11 @@ echo "Using CUDA version: $CUDA_VERSION"
 TORCH_VERSION=$(python -c "import torch; print(torch.__version__)")
 echo "Using PyTorch version: $TORCH_VERSION"
 
-pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-${TORCH_VERSION}+${CUDA_VERSION}.html
-pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-${TORCH_VERSION}+${CUDA_VERSION}.html
-pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-${TORCH_VERSION}+${CUDA_VERSION}.html
-pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-${TORCH_VERSION}+${CUDA_VERSION}.html
-pip install torch-geometric
+pip install torch-scatter==2.0.8 -f https://pytorch-geometric.com/whl/torch-${TORCH_VERSION}+${CUDA_VERSION}.html
+pip install torch-sparse==0.6.11 -f https://pytorch-geometric.com/whl/torch-${TORCH_VERSION}+${CUDA_VERSION}.html
+pip install torch-cluster==1.5.9 -f https://pytorch-geometric.com/whl/torch-${TORCH_VERSION}+${CUDA_VERSION}.html
+pip install torch-spline-conv==1.2.1 -f https://pytorch-geometric.com/whl/torch-${TORCH_VERSION}+${CUDA_VERSION}.html
+pip install torch-geometric==1.7.2
+
+conda install -c conda-forge tensorboard
+
