@@ -19,6 +19,7 @@ parser = ArgumentParser()
 parser.add_argument('--trained_model_dir', type=str)
 parser.add_argument('--out', type=str)
 parser.add_argument('--test_csv', type=str)
+parser.add_argument('--force_n_conf', type=int, default=None)
 parser.add_argument('--dataset', type=str, default='qm9')
 parser.add_argument('--mmff', action='store_true', default=False)
 parser.add_argument('--seed', type=int, default=0)
@@ -45,7 +46,8 @@ test_data = pd.read_csv(test_csv)
 
 conformer_dict = {}
 for smi, n_confs in tqdm(test_data.values):
-    
+    if args.force_n_conf is not None:
+        n_confs = args.force_n_conf
     # create data object (skip smiles rdkit can't handle)
     tg_data = featurize_mol_from_smiles(smi, dataset=dataset)
     if not tg_data:
@@ -82,5 +84,8 @@ if args.out:
         pickle.dump(conformer_dict, f)
 else:
     suffix = '_ff' if mmff else ''
+    if args.force_n_conf is not None:
+        suffix = suffix + '_' + str(args.force_n_conf)
+
     with open(f'{trained_model_dir}/test_mols{suffix}.pkl', 'wb') as f:
         pickle.dump(conformer_dict, f)

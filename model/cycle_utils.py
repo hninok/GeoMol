@@ -57,3 +57,4 @@ def align_coords_Kabsch(p_cycle_coords, q_cycle_coords, p_mask, q_mask=None):
     p_cycle_coords_aligned = torch.matmul(R, p_cycle_coords.permute(0, 1, 3, 2)).permute(0, 1, 3, 2) + b.unsqueeze(2)
 
     return p_cycle_coords_aligned
+    #return p_cycle_coords

@@ -25,20 +25,20 @@ def train(model, loader, optimizer, device, scheduler, logger, epoch, writer):
         
         if epoch > 0:
             # predicted 3D Conformation coordinates for atoms in batch (16 molecules)
-            conf = construct_conformers(data, model)
+            conf = construct_conformers(data, model).to(device)
             # single actual 3D conformation (batch of 16 molecules)
             pos_list = data.pos
-            pos = torch.cat([torch.cat([p[0][0] for p in pos_list]).unsqueeze(1)], dim=1)
+            pos = torch.cat([torch.cat([p[0][0] for p in pos_list]).unsqueeze(1)], dim=1).to(device)
 
             # make sure same dimensions
             # print(f"CAT POS: {pos.shape}")    
             # print("CONF SHAPE: " + str(conf.shape))
             
             # calculate MSE 
-            MSE_loss_func = nn.MSELoss()
+            MSE_loss_func = nn.MSELoss().to(device)
             # rec_loss = torch.sqrt(MSE_loss_func(conf, pos))
             rec_loss = MSE_loss_func(conf, pos)
-            print(f"MSE LOSS: {rec_loss}")
+            #print(f"MSE LOSS: {rec_loss}")
             
             # combine losses to get final loss
             # print("MSE LOSS: " + str(rec_loss))
@@ -97,7 +97,18 @@ def test(model, loader, device, epoch, writer):
     for i, data in tqdm(enumerate(loader), total=len(loader)):
 
         data = data.to(device)
-        result = model(data)
+        org_loss = model(data)
+        
+        if epoch > 0:
+            conf = construct_conformers(data, model)
+            pos_list = data.pos
+            pos = torch.cat([torch.cat([p[0][0] for p in pos_list]).unsqueeze(1)], dim=1)
+            MSE_loss_func = nn.MSELoss()
+            rec_loss = MSE_loss_func(conf, pos)
+            result = org_loss + rec_loss
+        else:
+            result = org_loss
+
         loss_all += result.item()
 
         a += model.one_hop_loss_write.item()

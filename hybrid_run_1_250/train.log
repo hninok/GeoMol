@@ -1,0 +1,2091 @@
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Epoch 1: Training Loss nan
+Epoch 1: Validation Loss nan
+Epoch 2: Training Loss nan
+Epoch 2: Validation Loss nan
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Arguments are...
+log_dir: ./hnin_continue_log3
+data_dir: data/QM9/qm9/
+split_path: data/QM9/splits/split0.npy
+trained_local_model: None
+restart_dir: hnin_best
+dataset: qm9
+seed: 0
+n_epochs: 50
+warmup_epochs: 2
+batch_size: 1
+lr: 0.001
+num_workers: 2
+optimizer: adam
+scheduler: plateau
+verbose: False
+model_dim: 25
+random_vec_dim: 10
+random_vec_std: 1
+random_alpha: False
+n_true_confs: 1
+n_model_confs: 1
+gnn1_depth: 3
+gnn1_n_layers: 2
+gnn2_depth: 3
+gnn2_n_layers: 2
+encoder_n_head: 2
+coord_pred_n_layers: 2
+d_mlp_n_layers: 1
+h_mol_mlp_n_layers: 1
+alpha_mlp_n_layers: 2
+c_mlp_n_layers: 1
+global_transformer: False
+loss_type: ot_emd
+teacher_force: False
+separate_opts: False
+
+Model parameters are:
+hyperparams:
+  alpha_mlp:
+    n_layers: 2
+  c_mlp:
+    n_layers: 1
+  coord_pred:
+    n_layers: 2
+  d_mlp:
+    n_layers: 1
+  encoder:
+    n_head: 2
+  global_transformer: False
+  gnn1:
+    depth: 3
+    n_layers: 2
+  gnn2:
+    depth: 3
+    n_layers: 2
+  h_mol_mlp:
+    n_layers: 1
+  loss_type: ot_emd
+  model_dim: 25
+  n_model_confs: 1
+  n_true_confs: 1
+  random_alpha: False
+  random_vec_dim: 10
+  random_vec_std: 1
+  teacher_force: False
+num_edge_features: 4
+num_node_features: 44
+
+
+Starting training...
+Epoch 1: Training Loss 2.0823764970332386
+Epoch 1: Validation Loss 3.96950328707695
+Epoch 2: Training Loss 1.9964743246436119
+Epoch 2: Validation Loss 1.673197288185358
+Epoch 3: Training Loss 1.7465205589860677
+Epoch 3: Validation Loss 1.7811148738861085
+Epoch 4: Training Loss 1.7483676876962184
+Epoch 4: Validation Loss 1.6825225321650505
+Epoch 5: Training Loss 1.7693560265421868
+Epoch 5: Validation Loss 2.372469718873501
+Epoch 6: Training Loss 1.894482647433877
+Epoch 6: Validation Loss 1.6397706977725028
+Epoch 7: Training Loss 1.5643746257990598
+Epoch 7: Validation Loss 1.4986607450842857
+Epoch 8: Training Loss 1.5314635849416256
+Epoch 8: Validation Loss 1.5861197519302368
+Epoch 9: Training Loss 1.538569406068325
+Epoch 9: Validation Loss 1.4365775310993194
+Epoch 10: Training Loss 1.4926522020816804
+Epoch 10: Validation Loss 1.4158242183327674
+Epoch 11: Training Loss 1.4634242973148823
+Epoch 11: Validation Loss 1.4591512715816497
+Epoch 12: Training Loss 1.4641141516000031
+Epoch 12: Validation Loss 1.38426735830307
+Epoch 13: Training Loss 1.4642119464427232
+Epoch 13: Validation Loss 1.6376422933340073
+Epoch 14: Training Loss 1.4610859419167042
+Epoch 14: Validation Loss 1.5060288456082345
+Epoch 15: Training Loss 1.4516188747882843
+Epoch 15: Validation Loss 1.4758136699199675
+Epoch 16: Training Loss 1.4525663153469563
+Epoch 16: Validation Loss 1.465763996899128
+Epoch 17: Training Loss 1.424435748231411
+Epoch 17: Validation Loss 1.3436711909770966
+Epoch 18: Training Loss 1.420684857970476
+Epoch 18: Validation Loss 1.3540522816181182
+Epoch 19: Training Loss 1.4306849799275398
+Epoch 19: Validation Loss 1.3590722354948521
+Epoch 20: Training Loss 1.4149508822321892
+Epoch 20: Validation Loss 1.5346354643702507
+Epoch 21: Training Loss 1.4126619049191476
+Epoch 21: Validation Loss 1.4476658827066422
+Epoch 22: Training Loss 1.396018981987238
+Epoch 22: Validation Loss 1.3683816793560981
+Epoch 23: Training Loss 1.3811367821276188
+Epoch 23: Validation Loss 1.340417628288269
+Epoch 24: Training Loss 1.3830305886268617
+Epoch 24: Validation Loss 1.3892033523619174
+Epoch 25: Training Loss 1.3943650280714035
+Epoch 25: Validation Loss 1.3574601780176163
+Epoch 26: Training Loss 1.3728632203042508
+Epoch 26: Validation Loss 1.3747650085091592
+Epoch 27: Training Loss 1.382189135301113
+Epoch 27: Validation Loss 1.37009044277668
+Epoch 28: Training Loss 1.3308076082348823
+Epoch 28: Validation Loss 1.33118347966671
+Epoch 29: Training Loss 1.3770760033160447
+Epoch 29: Validation Loss 1.2908574472665786
+Epoch 30: Training Loss 1.364208917298913
+Epoch 30: Validation Loss 1.306699466764927
+Epoch 31: Training Loss 1.3417727638304233
+Epoch 31: Validation Loss 1.3266802587509154
+Epoch 32: Training Loss 1.3549227264225483
+Epoch 32: Validation Loss 1.2666869153380393
+Epoch 33: Training Loss 1.3465624390989541
+Epoch 33: Validation Loss 1.2901782822012902
+Epoch 34: Training Loss 1.335944824270904
+Epoch 34: Validation Loss 1.3710636919736863
+Epoch 35: Training Loss 1.3553497991979122
+Epoch 35: Validation Loss 1.372074235856533
+Epoch 36: Training Loss 1.3359564224123954
+Epoch 36: Validation Loss 1.31252383518219
+Epoch 37: Training Loss 1.3366317117989064
+Epoch 37: Validation Loss 1.3139889087677001
+Epoch 38: Training Loss 1.3551582081139089
+Epoch 38: Validation Loss 1.3310440654158593
+Epoch 39: Training Loss 1.2681291715204717
+Epoch 39: Validation Loss 1.1825134665966035
+Epoch 40: Training Loss 1.3003134559631349
+Epoch 40: Validation Loss 1.2793831169009209
+Epoch 41: Training Loss 1.2667714761793614
+Epoch 41: Validation Loss 1.21770560079813
+Epoch 42: Training Loss 1.2650847816467286
+Epoch 42: Validation Loss 1.3080629334449767
+Epoch 43: Training Loss 1.2655798128187656
+Epoch 43: Validation Loss 1.2936899734139442
+Epoch 44: Training Loss 1.2672869370549917
+Epoch 44: Validation Loss 1.1988682728409767
+Epoch 45: Training Loss 1.2405447898745536
+Epoch 45: Validation Loss 1.2312071680426597
+Epoch 46: Training Loss 1.2058074459433556
+Epoch 46: Validation Loss 1.2601814843416215
+Epoch 47: Training Loss 1.2302620620012283
+Epoch 47: Validation Loss 1.2198812429308892
+Epoch 48: Training Loss 1.1957572252511979
+Epoch 48: Validation Loss 1.1619184027910232
+Epoch 49: Training Loss 1.1988333694219588
+Epoch 49: Validation Loss 1.1795765525698663
+Best Validation Loss 1.1619184027910232 on Epoch 48
